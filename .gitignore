@@ -28,3 +28,7 @@ ios/Flutter/Generated.xcconfig
 ios/Flutter/flutter_export_environment.sh
 # Local tools
 .tools/
+
+# Python setup-script tests
+__pycache__/
+*.py[cod]
