@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TVMaze \u00b7 selected device",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "TVMaze \u00b7 Chrome",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "env": {
+        "CHROME_EXECUTABLE": "/usr/bin/chromium"
+      }
+    }
+  ]
+}

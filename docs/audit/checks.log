@@ -1,0 +1,116 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 85.0.0 (109.0.0 available)
+  analyzer 7.7.1 (14.5.0 available)
+  characters 1.4.0 (1.4.1 available)
+  clock 1.1.2 (1.1.3 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  frontend_server_client 4.0.0 (4.1.0 available)
+  lints 5.1.1 (6.1.0 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.1 available)
+  meta 1.16.0 (1.19.0 available)
+  package_config 2.2.0 (3.0.0 available)
+  path_provider_linux 2.2.1 (2.2.2 available)
+  path_provider_platform_interface 2.1.2 (2.1.3 available)
+  platform 3.1.6 (3.2.0 available)
+  shared_preferences 2.5.5 (2.5.6 available)
+  shared_preferences_android 2.4.23 (2.5.1 available)
+  shared_preferences_foundation 2.5.6 (2.6.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.26.2 (1.33.0 available)
+  test_api 0.7.6 (0.7.15 available)
+  test_core 0.6.11 (0.6.21 available)
+  url_launcher 6.3.2 (6.3.3 available)
+  url_launcher_android 6.3.29 (6.3.33 available)
+  url_launcher_ios 6.3.6 (6.4.2 available)
+  url_launcher_linux 3.2.2 (3.2.3 available)
+  url_launcher_macos 3.2.5 (3.2.6 available)
+  url_launcher_web 2.4.1 (2.4.3 available)
+  url_launcher_windows 3.1.5 (3.1.6 available)
+  vector_math 2.2.0 (2.4.3 available)
+Got dependencies!
+29 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing SMD assignment...
+No issues found! (ran in 0.9s)
+
+00:00 +0: loading /home/rehan/SMD assignment/test/repository_test.dart
+00:01 +0: loading /home/rehan/SMD assignment/test/repository_test.dart
+00:01 +0: /home/rehan/SMD assignment/test/repository_test.dart: slow requests produce a readable timeout failure
+00:01 +1: /home/rehan/SMD assignment/test/repository_test.dart: slow requests produce a readable timeout failure
+00:01 +1: /home/rehan/SMD assignment/test/repository_test.dart: page query is forwarded and missing metadata is safe
+00:01 +2: /home/rehan/SMD assignment/test/repository_test.dart: page query is forwarded and missing metadata is safe
+00:01 +2: /home/rehan/SMD assignment/test/repository_test.dart: index 404 is end of collection
+00:01 +3: /home/rehan/SMD assignment/test/repository_test.dart: index 404 is end of collection
+00:01 +3: /home/rehan/SMD assignment/test/repository_test.dart: search is encoded and nested show payload is unwrapped
+00:01 +4: /home/rehan/SMD assignment/test/repository_test.dart: search is encoded and nested show payload is unwrapped
+00:01 +4: /home/rehan/SMD assignment/test/repository_test.dart: HTTP 429 becomes a user-facing failure
+00:01 +5: /home/rehan/SMD assignment/test/repository_test.dart: HTTP 429 becomes a user-facing failure
+00:01 +5: /home/rehan/SMD assignment/test/repository_test.dart: HTTP 500 becomes a user-facing failure
+00:01 +6: /home/rehan/SMD assignment/test/repository_test.dart: HTTP 500 becomes a user-facing failure
+00:01 +6: /home/rehan/SMD assignment/test/repository_test.dart: malformed JSON and wrong schema become failures
+00:01 +7: /home/rehan/SMD assignment/test/repository_test.dart: malformed JSON and wrong schema become failures
+00:01 +7: /home/rehan/SMD assignment/test/repository_test.dart: transport failures are readable
+00:01 +8: /home/rehan/SMD assignment/test/repository_test.dart: transport failures are readable
+00:01 +8: /home/rehan/SMD assignment/test/repository_test.dart: details, cast and episodes use their separate endpoints
+00:01 +9: /home/rehan/SMD assignment/test/discover_bloc_test.dart: loads first page
+00:01 +10: /home/rehan/SMD assignment/test/discover_bloc_test.dart: loads first page
+00:01 +10: /home/rehan/SMD assignment/test/discover_bloc_test.dart: pagination deduplicates IDs and stops on empty page
+00:01 +11: /home/rehan/SMD assignment/test/discover_bloc_test.dart: pagination deduplicates IDs and stops on empty page
+00:01 +11: /home/rehan/SMD assignment/test/discover_bloc_test.dart: failed page keeps data and retry uses same page
+00:01 +12: /home/rehan/SMD assignment/test/discover_bloc_test.dart: failed page keeps data and retry uses same page
+00:01 +12: /home/rehan/SMD assignment/test/discover_bloc_test.dart: failed refresh retains previously loaded collection
+00:01 +13: /home/rehan/SMD assignment/test/discover_bloc_test.dart: failed refresh retains previously loaded collection
+00:01 +13: /home/rehan/SMD assignment/test/discover_bloc_test.dart: first load failure is explicit
+00:01 +14: /home/rehan/SMD assignment/test/discover_bloc_test.dart: first load failure is explicit
+00:02 +14: /home/rehan/SMD assignment/test/discover_bloc_test.dart: first load failure is explicit
+00:02 +14: loading /home/rehan/SMD assignment/test/search_bloc_test.dart
+00:03 +14: loading /home/rehan/SMD assignment/test/search_bloc_test.dart
+00:03 +14: /home/rehan/SMD assignment/test/search_bloc_test.dart: rapid typing performs one debounced request
+00:03 +15: /home/rehan/SMD assignment/test/search_bloc_test.dart: rapid typing performs one debounced request
+00:03 +15: /home/rehan/SMD assignment/test/search_bloc_test.dart: late response cannot replace newer search results
+00:03 +16: /home/rehan/SMD assignment/test/search_bloc_test.dart: late response cannot replace newer search results
+00:03 +16: /home/rehan/SMD assignment/test/search_bloc_test.dart: clear immediately invalidates an in-flight request
+00:03 +17: /home/rehan/SMD assignment/test/watchlist_test.dart: SharedPreferences survives new repository and BLoC instances
+00:03 +18: /home/rehan/SMD assignment/test/search_bloc_test.dart: no results has its own state
+00:03 +19: /home/rehan/SMD assignment/test/watchlist_test.dart: saved summaries round-trip without interpreting literal markup
+00:03 +20: /home/rehan/SMD assignment/test/search_bloc_test.dart: request failures have retryable state
+00:03 +21: /home/rehan/SMD assignment/test/search_bloc_test.dart: request failures have retryable state
+00:03 +22: /home/rehan/SMD assignment/test/watchlist_test.dart: failed save rolls back to original data
+00:03 +23: /home/rehan/SMD assignment/test/watchlist_test.dart: failed save rolls back to original data
+00:03 +23: /home/rehan/SMD assignment/test/watchlist_test.dart: load and rapid toggles are serialized
+00:03 +24: /home/rehan/SMD assignment/test/watchlist_test.dart: load and rapid toggles are serialized
+00:03 +24: /home/rehan/SMD assignment/test/watchlist_test.dart: failed read prevents overwriting unread data
+00:03 +25: /home/rehan/SMD assignment/test/watchlist_test.dart: failed read prevents overwriting unread data
+00:03 +25: loading /home/rehan/SMD assignment/test/details_bloc_test.dart
+00:04 +25: loading /home/rehan/SMD assignment/test/details_bloc_test.dart
+00:04 +25: /home/rehan/SMD assignment/test/details_bloc_test.dart: episodes grouped and sorted by season and number
+00:04 +26: /home/rehan/SMD assignment/test/details_bloc_test.dart: episodes grouped and sorted by season and number
+00:04 +26: /home/rehan/SMD assignment/test/details_bloc_test.dart: cast failure remains visible when independent details fetch succeeds
+00:04 +27: /home/rehan/SMD assignment/test/details_bloc_test.dart: cast failure remains visible when independent details fetch succeeds
+00:04 +27: /home/rehan/SMD assignment/test/details_bloc_test.dart: empty cast and episodes have independent empty states
+00:04 +28: /home/rehan/SMD assignment/test/details_bloc_test.dart: empty cast and episodes have independent empty states
+00:04 +28: loading /home/rehan/SMD assignment/test/app_test.dart
+00:04 +28: /home/rehan/SMD assignment/test/app_test.dart: details header lays out and pins at Size(390.0, 844.0)
+00:05 +28: /home/rehan/SMD assignment/test/app_test.dart: details header lays out and pins at Size(390.0, 844.0)
+00:06 +28: /home/rehan/SMD assignment/test/app_test.dart: details header lays out and pins at Size(390.0, 844.0)
+00:06 +29: /home/rehan/SMD assignment/test/feature_screens_test.dart: scrolling the collection requests the next API page
+00:06 +30: /home/rehan/SMD assignment/test/feature_screens_test.dart: scrolling the collection requests the next API page
+00:07 +30: /home/rehan/SMD assignment/test/feature_screens_test.dart: scrolling the collection requests the next API page
+00:07 +31: /home/rehan/SMD assignment/test/app_test.dart: discover → details → save → watchlist → remove
+00:07 +32: /home/rehan/SMD assignment/test/feature_screens_test.dart: search renders API results, an empty response, and clear state
+00:07 +33: /home/rehan/SMD assignment/test/feature_screens_test.dart: search renders API results, an empty response, and clear state
+00:07 +34: /home/rehan/SMD assignment/test/feature_screens_test.dart: search renders API results, an empty response, and clear state
+00:07 +34: /home/rehan/SMD assignment/test/feature_screens_test.dart: cast and episodes are populated from their repositories
+00:08 +34: /home/rehan/SMD assignment/test/feature_screens_test.dart: cast and episodes are populated from their repositories
+00:08 +35: /home/rehan/SMD assignment/test/feature_screens_test.dart: cast and episodes are populated from their repositories
+00:08 +35: /home/rehan/SMD assignment/test/feature_screens_test.dart: discovery API failure renders retry and recovers
+00:08 +36: /home/rehan/SMD assignment/test/feature_screens_test.dart: discovery API failure renders retry and recovers
+00:09 +36: /home/rehan/SMD assignment/test/feature_screens_test.dart: discovery API failure renders retry and recovers
+00:09 +36: All tests passed!
+Compiling lib/main.dart for the Web...
+Wasm dry run succeeded. Consider building and testing your application with the `--wasm` flag. See docs for more info: https://docs.flutter.dev/platform-integration/web/wasm
+Use --no-wasm-dry-run to disable these warnings.
+Compiling lib/main.dart for the Web...                              7.9s
+✓ Built build/web
